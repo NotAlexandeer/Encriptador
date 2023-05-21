@@ -1,0 +1,144 @@
+body {
+  background-color: rgba(69, 69, 69, 1);
+  display: inline-flex;
+}
+#img {
+  width: 120px;
+  height: 48px;
+}
+#logo {
+  padding-top: 0px;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 58px;
+  height: 48px;
+}
+#entrada {
+  width: 950px;
+  height: 640px;
+  padding-top: 40px;
+  padding-block: 40px;
+  margin-left: 30px;
+}
+#InputText {
+  background-color: rgba(90, 90, 90, 1);
+  border: transparent;
+  resize: none;
+  width: 800px;
+  height: 550px;
+  font-size: 32px;
+  color: rgba(230, 230, 230, 1);
+  font-family: "calibri";
+  font-style: normal;
+  resize: none;
+  border-radius: 32px;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+textarea:focus {
+  padding-left: 20px;
+  padding-top: 20px;
+  outline: none;
+}
+textarea:active {  
+  padding-left: 20px;
+  padding-top: 20px;
+  outline: none;
+}
+#condicion {
+  color: rgba(230, 230, 230, 1);
+  font-size: 15px;
+  font-family: "calibri";
+  font-style: normal;
+  opacity: 0.8;
+  margin-left: 80px  
+}
+#botones {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 228px;
+  height: 67px;
+  border-radius: 24px;
+  border-color: rgba(59, 196, 182, 1);
+  padding: 24px;
+  gap: 8px;
+  font-size: 18px;
+}
+#btn-encriptar {
+  background-color: rgba(59, 196, 182, 1);
+  border: 2px solid rgba(59, 196, 182, 1);
+  color: rgba(230, 230, 230, 1);
+}
+#btn-desencriptar {
+  color: rgba(230, 230, 230, 1);
+  border: 2px solid rgba(59, 196, 182, 1);
+  color: rgba(59, 196, 182, 1);
+  padding-left: 24px;
+  margin-left: 24px;
+}
+#salida {
+  background-color: rgba(90, 90, 90, 1);
+  width: 300px;
+  height: 680px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#nonmsj {
+  padding-top: 10px;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+}
+.msj {
+  text-align: center;
+  font-family: "calibri";
+  font-style: normal;
+  margin-left: 38px;
+  padding-left: 15px;
+}
+.msj h2 {
+  font-size: 24px;
+  color: rgba(59, 196, 182, 1);
+  margin-bottom: 0px;
+}
+.msj p {
+  color: rgba(230, 230, 230, 1);
+  size: 16px;
+  margin-top: 10px;
+
+}
+#out {
+  font-family: "calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(230, 230, 230, 1);
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#cajaCopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+#btn-copy {
+  background-color: transparent;
+  border: 1px solid #0a3871;
+  padding-left: 24px;
+  margin-left: 24px;
+  padding: 24px;
+  gap: 8px;
+  font-family: "calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(230, 230, 230, 1);
+}
